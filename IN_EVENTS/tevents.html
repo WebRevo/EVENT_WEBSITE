@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENT_NAME</title>
+    <link rel="icon" href="/LOGO.png" type="png">
+    <link rel="stylesheet" href="tevents.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="hero" id="blur">
+        <nav>
+            <a href="/MAIN_PAGE/index.html"><img src="/LOGO.png" class="logo" width="150px" height="100px"></a>
+            <ul>
+                <li><a href="/MAIN_PAGE/index.html" class="bot-mar">HOME</a></li>
+                <li><a href="#">REGISTER NOW</a></li>
+                <li><a href="/VENUE/venue.html">VENUE</a></li>
+                <a href="/ABOUT US/about.html"  class="about" style="text-decoration: none;"><span>ABOUT US</span><i></i></a>
+            </ul>
+        </nav>
+        <div class="info">
+            <img src="/IN_EVENTS/bacck4.png" width="470px" height="470px">
+        </div>
+        <div class="img-box">
+            <div class="block">
+                <h1><i class="fa-solid fa-circle-plus" onclick="toggle()"></i>TEVENT-1</h1>
+            </div>
+            <div class="block">
+                <h1><i class="fa-solid fa-circle-plus"></i>TEVENT-2</h1>
+            </div>
+            <div class="block">
+                <h1><i class="fa-solid fa-circle-plus"></i>TEVENT-3</h1>
+            </div>
+            <div class="block">
+                <h1><i class="fa-solid fa-circle-plus"></i>TEVENT-4</h1>
+            </div>
+        </div>
+    </div>
+    <div class="movetry" id="popup">
+        <div class="block5">
+            <div class="movetry1">
+                <h1><i class="fa-solid fa-circle-plus" id="rotate" onclick="toggle()"></i></h1>
+            </div>
+            <br><h3>TEVENT_NAME</h3><br><br>
+            <p>DESCRIBE YOUR TEVENT</p>
+        </div>
+    </div>
+    <script>
+        function toggle(){
+            var blur = document.getElementById('blur')
+            blur.classList.toggle('active')
+            var popup = document.getElementById('popup')
+            popup.classList.toggle('active')
+        }
+
+    </script>
+    <div class="hero1" id="nteve">
+        <div class="image">
+            <img src="ntevents.png" width="380px" height="380px">
+        </div>
+        <div class="blocks">
+            <div class="block1">
+                <h1><i class="fa-solid fa-circle-plus"></i>NTEVENT-1</h1>
+            </div>
+            <div class="block1">
+                <h1><i class="fa-solid fa-circle-plus"></i>NTEVENT-2</h1>
+            </div>
+            <div class="block1">
+                <h1><i class="fa-solid fa-circle-plus"></i>NTEVENT-3</h1>
+            </div>
+            <div class="block1">
+                <h1><i class="fa-solid fa-circle-plus"></i>NTEVENT-4</h1>
+            </div>
+        </div>
+    </div>
+    <div class="hero2" id="not">
+        <div class="info3">
+            <img src="spevent.png" width="380px" height="380px">
+        </div>
+        <div class="img-box">
+            <div class="block">
+                <h1><i class="fa-solid fa-circle-plus"></i>SEVENT-1</h1>
+            </div>
+            <div class="block">
+                <h1><i class="fa-solid fa-circle-plus"></i>SEVENT-2</h1>
+            </div>
+            <div class="block">
+                <h1><i class="fa-solid fa-circle-plus"></i>SEVENT-3</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
